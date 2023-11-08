@@ -1,0 +1,50 @@
+/* background: rgba(0, 0, 0, 0.7)url(../src/lak.jpg); */
+
+
+.flex{
+    /* flex-wrap: wrap; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.heading-y{
+
+    width: 100%;
+    height: 150px;
+    text-align: center;
+}
+.btn{
+    border-radius: 5px;
+    background-color: #4444b4;
+    color: black;
+    border: none;
+    height: 50px;
+    width: 160px;
+}
+button:hover{
+    transform: scale(90%);
+    overflow:hidden;
+    transition:all .5s;
+}
+.p-heading{
+    font-weight: bold;
+    font-size: large;
+}
+.m-2{
+    margin: 20px 0;
+}
+.img{
+    border-radius: 5px;
+    height: 100%;
+    width: 99%;
+}
+.wh-full{
+    width: 100wh;
+    height:100vh;
+}
+/* .bgAll{
+    background-color: #b2dede;
+} */
+body{
+    background:linear-gradient(#7cd2ed,#9e7ced);
+}

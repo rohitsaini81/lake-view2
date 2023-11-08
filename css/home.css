@@ -1,0 +1,43 @@
+/* section home */
+.home{
+    flex-direction: column;
+    height: 70vh;
+    width: 100%;
+    position: relative;
+}
+.home::before{
+    content:  "";
+width: 100%;
+height: 70vh;
+position: absolute;
+top: 0;
+opacity: 0.8;
+background: rgba(36, 52, 56, 0.7)url('https://r1imghtlak.mmtcdn.com/b3833c7ae48611eb84390242ac110008.jpeg?&output-quality=75&downsize=910:612&crop=910:612;4,0&output-format=jpg');
+background-size: cover;
+/* background-blend-mode: darken; */
+z-index: -1;
+left: 0;
+}
+.home .p-heading{
+    margin:25px 0 39px 0;
+    color: black;
+    font-size: 2em;
+}
+.home .m-2{
+    font-size: 5rem;
+    color: black;
+}
+
+
+@media screen and (max-width: 768px) {
+    .home .m-2 {
+        font-size: 2rem;
+        
+    }
+    .home{
+        color: wheat;
+    }
+    .home .p-heading{
+        font-size: 2em;
+    }
+}
